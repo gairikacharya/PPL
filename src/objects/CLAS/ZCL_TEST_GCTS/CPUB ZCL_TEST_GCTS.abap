@@ -1,0 +1,9 @@
+CLASS zcl_test_gcts DEFINITION
+  PUBLIC
+  FINAL
+  CREATE PUBLIC .
+
+  PUBLIC SECTION.
+     METHODS: calc_value
+        EXPORTING price_type TYPE c
+        CHANGING CALCULATED_VAL TYPE C.

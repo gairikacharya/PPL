@@ -1,0 +1,3 @@
+   METHOD CALC_VALUE.
+
+   ENDMETHOD.
