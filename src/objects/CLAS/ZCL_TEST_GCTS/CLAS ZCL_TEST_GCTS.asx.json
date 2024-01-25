@@ -83,7 +83,14 @@
   [
    {
     "CLSNAME":"ZCL_TEST_GCTS",
-    "CMPNAME":"CALC_VALUE",
+    "CMPNAME":"CALC_VALUE1",
+    "CMPTYPE":1,
+    "MTDTYPE":0,
+    "MTDTYPE2":0
+   },
+   {
+    "CLSNAME":"ZCL_TEST_GCTS",
+    "CMPNAME":"CALC_VALUE2",
     "CMPTYPE":1,
     "MTDTYPE":0,
     "MTDTYPE2":0
@@ -96,7 +103,7 @@
   [
    {
     "CLSNAME":"ZCL_TEST_GCTS",
-    "CMPNAME":"CALC_VALUE",
+    "CMPNAME":"CALC_VALUE1",
     "VERSION":1,
     "ALIAS":"",
     "REDEFIN":"",
@@ -105,9 +112,67 @@
     "EDITORDER":1,
     "LOCKED":"",
     "DISPID":0,
+    "R3RELEASE":"",
+    "AUTHOR":"",
+    "CREATEDON":"2024-01-25",
+    "CHANGEDBY":"",
+    "CHANGEDON":"0000-00-00",
+    "MTDDECLTYP":0,
+    "MTDABSTRCT":"",
+    "MTDFINAL":"",
+    "DSRNOTEOM":"",
+    "EDTX":"",
+    "MTDNEWEXC":"",
+    "MTDREPLACE":"",
+    "MTDOPTNL":"",
+    "MTDAMDPRDONLY":"",
+    "MTDAMDPCDSCLNT":"",
+    "MTDAMDPCLNTINDEP":"",
+    "ATTDECLTYP":0,
+    "ATTDYNAMIC":"",
+    "ATTGETMTD":"",
+    "ATTSETMTD":"",
+    "ATTRDONLY":"",
+    "ATTVALUE":"",
+    "ATTPERSIST":"",
+    "ATTBUSOBJ":"",
+    "ATTKEYFLD":"",
+    "ATTEXPVIRT":0,
+    "EVTDECLTYP":0,
+    "TYPDUMMY":"",
+    "TYPTYPE":0,
+    "TYPE":"",
+    "TABLEOF":"",
+    "SRCROW1":0,
+    "SRCCOLUMN1":0,
+    "SRCROW2":0,
+    "SRCCOLUMN2":0,
+    "REFCLSNAME":"",
+    "REFINTNAME":"",
+    "REFCMPNAME":"",
+    "BCMTDINST":"",
+    "BCMTDCAT":0,
+    "BCMTDDIA":"",
+    "BCMTDCOM":"",
+    "BCMTDSYN":0,
+    "BCEVTCAT":0,
+    "TYPESRC_LENG":0,
+    "TYPESRC":""
+   },
+   {
+    "CLSNAME":"ZCL_TEST_GCTS",
+    "CMPNAME":"CALC_VALUE2",
+    "VERSION":1,
+    "ALIAS":"",
+    "REDEFIN":"",
+    "EXPOSURE":2,
+    "STATE":1,
+    "EDITORDER":2,
+    "LOCKED":"",
+    "DISPID":0,
     "R3RELEASE":"793",
     "AUTHOR":"",
-    "CREATEDON":"2024-01-18",
+    "CREATEDON":"2024-01-25",
     "CHANGEDBY":"",
     "CHANGEDON":"0000-00-00",
     "MTDDECLTYP":0,
@@ -160,7 +225,13 @@
   [
    {
     "CLSNAME":"ZCL_TEST_GCTS",
-    "CMPNAME":"CALC_VALUE",
+    "CMPNAME":"CALC_VALUE1",
+    "LANGU":"E",
+    "DESCRIPT":""
+   },
+   {
+    "CLSNAME":"ZCL_TEST_GCTS",
+    "CMPNAME":"CALC_VALUE2",
     "LANGU":"E",
     "DESCRIPT":""
    }
@@ -172,7 +243,7 @@
   [
    {
     "CLSNAME":"ZCL_TEST_GCTS",
-    "CMPNAME":"CALC_VALUE",
+    "CMPNAME":"CALC_VALUE1",
     "SCONAME":"CALCULATED_VAL",
     "CMPTYPE":1,
     "MTDTYPE":0,
@@ -180,7 +251,23 @@
    },
    {
     "CLSNAME":"ZCL_TEST_GCTS",
-    "CMPNAME":"CALC_VALUE",
+    "CMPNAME":"CALC_VALUE1",
+    "SCONAME":"PRICE_TYPE",
+    "CMPTYPE":1,
+    "MTDTYPE":0,
+    "SCOTYPE":0
+   },
+   {
+    "CLSNAME":"ZCL_TEST_GCTS",
+    "CMPNAME":"CALC_VALUE2",
+    "SCONAME":"CALCULATED_VAL",
+    "CMPTYPE":1,
+    "MTDTYPE":0,
+    "SCOTYPE":0
+   },
+   {
+    "CLSNAME":"ZCL_TEST_GCTS",
+    "CMPNAME":"CALC_VALUE2",
     "SCONAME":"PRICE_TYPE",
     "CMPTYPE":1,
     "MTDTYPE":0,
@@ -194,14 +281,14 @@
   [
    {
     "CLSNAME":"ZCL_TEST_GCTS",
-    "CMPNAME":"CALC_VALUE",
+    "CMPNAME":"CALC_VALUE1",
     "SCONAME":"CALCULATED_VAL",
     "VERSION":1,
     "EDITORDER":2,
     "LOCKED":"",
     "DISPID":0,
     "AUTHOR":"SAP_CUSTOMER",
-    "CREATEDON":"2024-01-18",
+    "CREATEDON":"2024-01-25",
     "CHANGEDBY":"",
     "CHANGEDON":"0000-00-00",
     "PARDECLTYP":2,
@@ -221,14 +308,68 @@
    },
    {
     "CLSNAME":"ZCL_TEST_GCTS",
-    "CMPNAME":"CALC_VALUE",
+    "CMPNAME":"CALC_VALUE1",
     "SCONAME":"PRICE_TYPE",
     "VERSION":1,
     "EDITORDER":1,
     "LOCKED":"",
     "DISPID":0,
     "AUTHOR":"SAP_CUSTOMER",
-    "CREATEDON":"2024-01-18",
+    "CREATEDON":"2024-01-25",
+    "CHANGEDBY":"",
+    "CHANGEDON":"0000-00-00",
+    "PARDECLTYP":1,
+    "PARPASSTYP":1,
+    "TYPTYPE":1,
+    "TYPE":"C",
+    "TABLEOF":"",
+    "SRCROW1":0,
+    "SRCCOLUMN1":0,
+    "SRCROW2":0,
+    "SRCCOLUMN2":0,
+    "PARVALUE":"",
+    "PAROPTIONL":"",
+    "PARPREFERD":"",
+    "EXCDECLTYP":0,
+    "IS_RESUMABLE":""
+   },
+   {
+    "CLSNAME":"ZCL_TEST_GCTS",
+    "CMPNAME":"CALC_VALUE2",
+    "SCONAME":"CALCULATED_VAL",
+    "VERSION":1,
+    "EDITORDER":2,
+    "LOCKED":"",
+    "DISPID":0,
+    "AUTHOR":"SAP_CUSTOMER",
+    "CREATEDON":"2024-01-25",
+    "CHANGEDBY":"",
+    "CHANGEDON":"0000-00-00",
+    "PARDECLTYP":2,
+    "PARPASSTYP":1,
+    "TYPTYPE":1,
+    "TYPE":"C",
+    "TABLEOF":"",
+    "SRCROW1":0,
+    "SRCCOLUMN1":0,
+    "SRCROW2":0,
+    "SRCCOLUMN2":0,
+    "PARVALUE":"",
+    "PAROPTIONL":"",
+    "PARPREFERD":"",
+    "EXCDECLTYP":0,
+    "IS_RESUMABLE":""
+   },
+   {
+    "CLSNAME":"ZCL_TEST_GCTS",
+    "CMPNAME":"CALC_VALUE2",
+    "SCONAME":"PRICE_TYPE",
+    "VERSION":1,
+    "EDITORDER":1,
+    "LOCKED":"",
+    "DISPID":0,
+    "AUTHOR":"SAP_CUSTOMER",
+    "CREATEDON":"2024-01-25",
     "CHANGEDBY":"",
     "CHANGEDON":"0000-00-00",
     "PARDECLTYP":1,
@@ -254,14 +395,28 @@
   [
    {
     "CLSNAME":"ZCL_TEST_GCTS",
-    "CMPNAME":"CALC_VALUE",
+    "CMPNAME":"CALC_VALUE1",
     "SCONAME":"CALCULATED_VAL",
     "LANGU":"E",
     "DESCRIPT":""
    },
    {
     "CLSNAME":"ZCL_TEST_GCTS",
-    "CMPNAME":"CALC_VALUE",
+    "CMPNAME":"CALC_VALUE1",
+    "SCONAME":"PRICE_TYPE",
+    "LANGU":"E",
+    "DESCRIPT":""
+   },
+   {
+    "CLSNAME":"ZCL_TEST_GCTS",
+    "CMPNAME":"CALC_VALUE2",
+    "SCONAME":"CALCULATED_VAL",
+    "LANGU":"E",
+    "DESCRIPT":""
+   },
+   {
+    "CLSNAME":"ZCL_TEST_GCTS",
+    "CMPNAME":"CALC_VALUE2",
     "SCONAME":"PRICE_TYPE",
     "LANGU":"E",
     "DESCRIPT":""
@@ -310,8 +465,14 @@
    },
    {
     "CLASSNAME":"ZCL_TEST_GCTS",
-    "METHODINDX":1,
-    "METHODNAME":"CALC_VALUE",
+    "METHODINDX":2,
+    "METHODNAME":"CALC_VALUE1",
+    "FLAGS":0
+   },
+   {
+    "CLASSNAME":"ZCL_TEST_GCTS",
+    "METHODINDX":3,
+    "METHODNAME":"CALC_VALUE2",
     "FLAGS":0
    }
   ]
@@ -376,7 +537,18 @@
     "UCCHECK":"X"
    },
    {
-    "NAME":"ZCL_TEST_GCTS=================CM001",
+    "NAME":"ZCL_TEST_GCTS=================CM002",
+    "VARCL":"X",
+    "DBAPL":"S",
+    "DBNA":"D$",
+    "SUBC":"I",
+    "APPL":"S",
+    "FIXPT":"X",
+    "LDBNAME":"D$S",
+    "UCCHECK":"X"
+   },
+   {
+    "NAME":"ZCL_TEST_GCTS=================CM003",
     "VARCL":"X",
     "DBAPL":"S",
     "DBNA":"D$",
