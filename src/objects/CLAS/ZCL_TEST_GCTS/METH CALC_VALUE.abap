@@ -1,5 +1,5 @@
    METHOD CALC_VALUE.
 
-** This is a line created by the wave 1 team
+** This is fix by the operation team
 
    ENDMETHOD.
